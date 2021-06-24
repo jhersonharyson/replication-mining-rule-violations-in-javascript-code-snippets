@@ -1,0 +1,841 @@
+[
+  {
+    "classification": "Variables",
+    "rules": [
+      {
+        "rule": "init-declarations",
+        "description": "enforce or disallow variable initializations at definition"
+      },
+      {
+        "rule": "no-catch-shadow",
+        "description": "disallow the catch clause parameter name being the same as a variable in the outer scope"
+      },
+      {
+        "rule": "no-delete-var",
+        "description": "disallow deletion of variables"
+      },
+      {
+        "rule": "no-label-var",
+        "description": "disallow labels that share a name with a variable"
+      },
+      {
+        "rule": "no-shadow-restricted-names",
+        "description": "disallow shadowing of names such as arguments"
+      },
+      {
+        "rule": "no-shadow",
+        "description": "disallow declaration of variables already declared in the outer scope"
+      },
+      {
+        "rule": "no-undef-init",
+        "description": "disallow use of undefined when initializing variables"
+      },
+      {
+        "rule": "no-undef",
+        "description": "disallow use of undeclared variables unless mentioned in a /*global */ block"
+      },
+      {
+        "rule": "no-undefined",
+        "description": "disallow use of undefined variable"
+      },
+      {
+        "rule": "no-unused-vars",
+        "description": "disallow declaration of variables that are not used in the code"
+      },
+      {
+        "rule": "no-use-before-define",
+        "description": "disallow use of variables before they are defined"
+      }
+    ]
+  },
+  {
+    "classification": "Node.js and CommonJS",
+    "rules": [
+      {
+        "rule": "callback-return",
+        "description": "enforce return after a callback"
+      },
+      {
+        "rule": "global-require",
+        "description": "enforce require() on top-level module scope"
+      },
+      {
+        "rule": "handle-callback-err",
+        "description": "enforce error handling in callbacks"
+      },
+      {
+        "rule": "no-mixed-requires",
+        "description": "disallow mixing regular variable and require declarations"
+      },
+      {
+        "rule": "no-new-require",
+        "description": "disallow use of new operator with the require function"
+      },
+      {
+        "rule": "no-path-concat",
+        "description": "disallow string concatenation with __dirname and __filename"
+      },
+      {
+        "rule": "no-process-exit",
+        "description": "disallow process.exit()"
+      },
+      {
+        "rule": "no-restricted-imports",
+        "description": "restrict usage of specified node imports"
+      },
+      {
+        "rule": "no-restricted-modules",
+        "description": "restrict usage of specified node modules"
+      },
+      {
+        "rule": "no-sync",
+        "description": "disallow use of synchronous methods"
+      }
+    ]
+  },
+  {
+    "classification": "Stylistic Issues",
+    "rules": [
+      {
+        "rule": "array-bracket-spacing",
+        "description": "enforce spacing inside array brackets"
+      },
+      {
+        "rule": "block-spacing",
+        "description": "disallow or enforce spaces inside of single line blocks"
+      },
+      {
+        "rule": "brace-style",
+        "description": "enforce one true brace style"
+      },
+      {
+        "rule": "camelcase",
+        "description": "require camel case names"
+      },
+      {
+        "rule": "comma-spacing",
+        "description": "enforce spacing before and after comma"
+      },
+      {
+        "rule": "comma-style",
+        "description": "enforce one true comma style"
+      },
+      {
+        "rule": "computed-property-spacing",
+        "description": "require or disallow padding inside computed properties"
+      },
+      {
+        "rule": "consistent-this",
+        "description": "enforce consistent naming when capturing the current execution context"
+      },
+      {
+        "rule": "eol-last",
+        "description": "enforce newline at the end of file, with no multiple empty lines"
+      },
+      {
+        "rule": "func-names",
+        "description": "require function expressions to have a name"
+      },
+      {
+        "rule": "func-style",
+        "description": "enforce use of function declarations or expressions"
+      },
+      {
+        "rule": "id-length",
+        "description": "this option enforces minimum and maximum identifier lengths (variable names, property names etc.)"
+      },
+      {
+        "rule": "id-match",
+        "description": "require identifiers to match the provided regular expression"
+      },
+      {
+        "rule": "id-blacklist",
+        "description": "blacklist certain identifiers to prevent them being used"
+      },
+      {
+        "rule": "indent",
+        "description": "specify tab or space width for your code"
+      },
+      {
+        "rule": "jsx-quotes",
+        "description": "specify whether double or single quotes should be used in JSX attributes"
+      },
+      {
+        "rule": "key-spacing",
+        "description": "enforce spacing between keys and values in object literal properties"
+      },
+      {
+        "rule": "keyword-spacing",
+        "description": "enforce spacing before and after keywords"
+      },
+      {
+        "rule": "linebreak-style",
+        "description": "disallow mixed 'LF' and 'CRLF' as linebreaks"
+      },
+      {
+        "rule": "lines-around-comment",
+        "description": "enforce empty lines around comments"
+      },
+      {
+        "rule": "max-depth",
+        "description": "specify the maximum depth that blocks can be nested"
+      },
+      {
+        "rule": "max-len",
+        "description": "specify the maximum length of a line in your program"
+      },
+      {
+        "rule": "max-nested-callbacks",
+        "description": "specify the maximum depth callbacks can be nested"
+      },
+      {
+        "rule": "max-params",
+        "description": "limits the number of parameters that can be used in the function declaration"
+      },
+      {
+        "rule": "max-statements",
+        "description": "specify the maximum number of statement allowed in a function"
+      },
+      {
+        "rule": "new-cap",
+        "description": "require a capital letter for constructors"
+      },
+      {
+        "rule": "new-parens",
+        "description": "disallow the omission of parentheses when invoking a constructor with no arguments"
+      },
+      {
+        "rule": "newline-after-var",
+        "description": "require or disallow an empty newline after variable declarations"
+      },
+      {
+        "rule": "newline-per-chained-call",
+        "description": "enforce newline after each call when chaining the calls"
+      },
+      {
+        "rule": "no-array-constructor",
+        "description": "disallow use of the Array constructor"
+      },
+      {
+        "rule": "no-bitwise",
+        "description": "disallow use of bitwise operators"
+      },
+      {
+        "rule": "no-continue",
+        "description": "disallow use of the continue statement"
+      },
+      {
+        "rule": "no-inline-comments",
+        "description": "disallow comments inline after code"
+      },
+      {
+        "rule": "no-lonely-if",
+        "description": "disallow if as the only statement in an else block"
+      },
+      {
+        "rule": "no-mixed-spaces-and-tabs",
+        "description": "disallow mixed spaces and tabs for indentation"
+      },
+      {
+        "rule": "no-multiple-empty-lines",
+        "description": "disallow multiple empty lines"
+      },
+      {
+        "rule": "no-negated-condition",
+        "description": "disallow negated conditions"
+      },
+      {
+        "rule": "no-nested-ternary",
+        "description": "disallow nested ternary expressions"
+      },
+      {
+        "rule": "no-new-object",
+        "description": "disallow the use of the Object constructor"
+      },
+      {
+        "rule": "no-plusplus",
+        "description": "disallow use of unary operators, ++ and --"
+      },
+      {
+        "rule": "no-restricted-syntax",
+        "description": "disallow use of certain syntax in code"
+      },
+      {
+        "rule": "no-whitespace-before-property",
+        "description": "disallow whitespace before properties"
+      },
+      {
+        "rule": "no-spaced-func",
+        "description": "disallow space between function identifier and application"
+      },
+      {
+        "rule": "no-ternary",
+        "description": "disallow the use of ternary operators"
+      },
+      {
+        "rule": "no-trailing-spaces",
+        "description": "disallow trailing whitespace at the end of lines"
+      },
+      {
+        "rule": "no-underscore-dangle",
+        "description": "disallow dangling underscores in identifiers"
+      },
+      {
+        "rule": "no-unneeded-ternary",
+        "description": "disallow the use of ternary operators when a simpler alternative exists"
+      },
+      {
+        "rule": "object-curly-spacing",
+        "description": "require or disallow padding inside curly braces"
+      },
+      {
+        "rule": "one-var",
+        "description": "require or disallow one variable declaration per function"
+      },
+      {
+        "rule": "one-var-declaration-per-line",
+        "description": "require or disallow an newline around variable declarations"
+      },
+      {
+        "rule": "operator-assignment",
+        "description": "require assignment operator shorthand where possible or prohibit it entirely"
+      },
+      {
+        "rule": "operator-linebreak",
+        "description": "enforce operators to be placed before or after line breaks"
+      },
+      {
+        "rule": "padded-blocks",
+        "description": "enforce padding within blocks"
+      },
+      {
+        "rule": "quote-props",
+        "description": "require quotes around object literal property names"
+      },
+      {
+        "rule": "quotes",
+        "description": "specify whether backticks, double or single quotes should be used"
+      },
+      {
+        "rule": "require-jsdoc",
+        "description": "Require JSDoc comment"
+      },
+      {
+        "rule": "semi-spacing",
+        "description": "enforce spacing before and after semicolons"
+      },
+      {
+        "rule": "semi",
+        "description": "require or disallow use of semicolons instead of ASI"
+      },
+      {
+        "rule": "sort-vars",
+        "description": "sort variables within the same declaration block"
+      },
+      {
+        "rule": "sort-imports",
+        "description": "sort import declarations within module"
+      },
+      {
+        "rule": "space-before-blocks",
+        "description": "require or disallow a space before blocks"
+      },
+      {
+        "rule": "space-before-function-paren",
+        "description": "require or disallow a space before function opening parenthesis"
+      },
+      {
+        "rule": "space-in-parens",
+        "description": "require or disallow spaces inside parentheses"
+      },
+      {
+        "rule": "space-infix-ops",
+        "description": "require spaces around operators"
+      },
+      {
+        "rule": "space-unary-ops",
+        "description": "require or disallow spaces before/after unary operators"
+      },
+      {
+        "rule": "spaced-comment",
+        "description": "require or disallow a space immediately following the // or /* in a comment"
+      },
+      {
+        "rule": "wrap-regex",
+        "description": "require regex literals to be wrapped in parentheses"
+      }
+    ]
+  },
+  {
+    "classification": "ECMAScript 6",
+    "rules": [
+      {
+        "rule": "arrow-body-style",
+        "description": "require braces in arrow function body"
+      },
+      {
+        "rule": "arrow-parens",
+        "description": "require parens in arrow function arguments"
+      },
+      {
+        "rule": "arrow-spacing",
+        "description": "require space before/after arrow function's arrow"
+      },
+      {
+        "rule": "constructor-super",
+        "description": "verify calls of super() in constructors"
+      },
+      {
+        "rule": "generator-star-spacing",
+        "description": "enforce spacing around the * in generator functions"
+      },
+      {
+        "rule": "no-class-assign",
+        "description": "disallow modifying variables of class declarations"
+      },
+      {
+        "rule": "no-confusing-arrow",
+        "description": "disallow arrow functions where they could be confused with comparisons"
+      },
+      {
+        "rule": "no-const-assign",
+        "description": "disallow modifying variables that are declared using const"
+      },
+      {
+        "rule": "no-dupe-class-members",
+        "description": "disallow duplicate name in class members"
+      },
+      {
+        "rule": "no-new-symbol",
+        "description": "disallow use of the new operator with the Symbol object"
+      },
+      {
+        "rule": "no-this-before-super",
+        "description": "disallow use of this/super before calling super() in constructors"
+      },
+      {
+        "rule": "no-var",
+        "description": "require let or const instead of var"
+      },
+      {
+        "rule": "no-useless-constructor",
+        "description": "disallow unnecessary constructor"
+      },
+      {
+        "rule": "object-shorthand",
+        "description": "require method and property shorthand syntax for object literals"
+      },
+      {
+        "rule": "prefer-arrow-callback",
+        "description": "suggest using arrow functions as callbacks"
+      },
+      {
+        "rule": "prefer-const",
+        "description": "suggest using const declaration for variables that are never modified after declared"
+      },
+      {
+        "rule": "prefer-reflect",
+        "description": "suggest using Reflect methods where applicable"
+      },
+      {
+        "rule": "prefer-rest-params",
+        "description": "suggest using the rest parameters instead of arguments"
+      },
+      {
+        "rule": "prefer-spread",
+        "description": "suggest using the spread operator instead of .apply()"
+      },
+      {
+        "rule": "prefer-template",
+        "description": "suggest using template literals instead of strings concatenation"
+      },
+      {
+        "rule": "require-yield",
+        "description": "disallow generator functions that do not have yield"
+      },
+      {
+        "rule": "template-curly-spacing",
+        "description": "enforce spacing around embedded expressions of template strings"
+      },
+      {
+        "rule": "yield-star-spacing",
+        "description": "enforce spacing around the * in yield* expressions"
+      }
+    ]
+  },
+  {
+    "classification": "Possible Errors",
+    "rules": [
+      {
+        "rule": "comma-dangle",
+        "description": "disallow or enforce trailing commas"
+      },
+      {
+        "rule": "no-cond-assign",
+        "description": "disallow assignment in conditional expressions"
+      },
+      {
+        "rule": "no-console",
+        "description": "disallow use of console"
+      },
+      {
+        "rule": "no-constant-condition",
+        "description": "disallow use of constant expressions in conditions"
+      },
+      {
+        "rule": "no-control-regex",
+        "description": "disallow control characters in regular expressions"
+      },
+      {
+        "rule": "no-debugger",
+        "description": "disallow use of debugger"
+      },
+      {
+        "rule": "no-dupe-args",
+        "description": "disallow duplicate arguments in functions"
+      },
+      {
+        "rule": "no-dupe-keys",
+        "description": "disallow duplicate keys when creating object literals"
+      },
+      {
+        "rule": "no-duplicate-case",
+        "description": "disallow a duplicate case label."
+      },
+      {
+        "rule": "no-empty-character-class",
+        "description": "disallow the use of empty character classes in regular expressions"
+      },
+      {
+        "rule": "no-empty",
+        "description": "disallow empty block statements"
+      },
+      {
+        "rule": "no-ex-assign",
+        "description": "disallow assigning to the exception in a catch block"
+      },
+      {
+        "rule": "no-extra-boolean-cast",
+        "description": "disallow double-negation boolean casts in a boolean context"
+      },
+      {
+        "rule": "no-extra-parens",
+        "description": "disallow unnecessary parentheses"
+      },
+      {
+        "rule": "no-extra-semi",
+        "description": "disallow unnecessary semicolons"
+      },
+      {
+        "rule": "no-func-assign",
+        "description": "disallow overwriting functions written as function declarations"
+      },
+      {
+        "rule": "no-inner-declarations",
+        "description": "disallow function or variable declarations in nested blocks"
+      },
+      {
+        "rule": "no-invalid-regexp",
+        "description": "disallow invalid regular expression strings in the RegExp constructor"
+      },
+      {
+        "rule": "no-irregular-whitespace",
+        "description": "disallow irregular whitespace outside of strings and comments"
+      },
+      {
+        "rule": "no-negated-in-lhs",
+        "description": "disallow negation of the left operand of an in expression"
+      },
+      {
+        "rule": "no-obj-calls",
+        "description": "disallow the use of object properties of the global object (Math and JSON) as functions"
+      },
+      {
+        "rule": "no-regex-spaces",
+        "description": "disallow multiple spaces in a regular expression literal"
+      },
+      {
+        "rule": "no-sparse-arrays",
+        "description": "disallow sparse arrays"
+      },
+      {
+        "rule": "no-unexpected-multiline",
+        "description": "Avoid code that looks like two expressions but is actually one"
+      },
+      {
+        "rule": "no-unreachable",
+        "description": "disallow unreachable statements after a return, throw, continue, or break statement"
+      },
+      {
+        "rule": "use-isnan",
+        "description": "disallow comparisons with the value NaN"
+      },
+      {
+        "rule": "valid-jsdoc",
+        "description": "Ensure JSDoc comments are valid"
+      },
+      {
+        "rule": "valid-typeof",
+        "description": "Ensure that the results of typeof are compared against a valid string"
+      }
+    ]
+  },
+  {
+    "classification": "Best Practices",
+    "rules": [
+      {
+        "rule": "accessor-pairs",
+        "description": "Enforces getter/setter pairs in objects"
+      },
+      {
+        "rule": "array-callback-return",
+        "description": "Enforces return statements in callbacks of array's methods"
+      },
+      {
+        "rule": "block-scoped-var",
+        "description": "treat var statements as if they were block scoped"
+      },
+      {
+        "rule": "complexity",
+        "description": "specify the maximum cyclomatic complexity allowed in a program"
+      },
+      {
+        "rule": "consistent-return",
+        "description": "require return statements to either always or never specify values"
+      },
+      {
+        "rule": "curly",
+        "description": "specify curly brace conventions for all control statements"
+      },
+      {
+        "rule": "default-case",
+        "description": "require default case in switch statements"
+      },
+      {
+        "rule": "dot-location",
+        "description": "enforces consistent newlines before or after dots"
+      },
+      {
+        "rule": "dot-notation",
+        "description": "encourages use of dot notation whenever possible"
+      },
+      {
+        "rule": "eqeqeq",
+        "description": "require the use of === and !=="
+      },
+      {
+        "rule": "guard-for-in",
+        "description": "make sure for-in loops have an if statement"
+      },
+      {
+        "rule": "no-alert",
+        "description": "disallow the use of alert, confirm, and prompt"
+      },
+      {
+        "rule": "no-caller",
+        "description": "disallow use of arguments.caller or arguments.callee"
+      },
+      {
+        "rule": "no-case-declarations",
+        "description": "disallow lexical declarations in case clauses"
+      },
+      {
+        "rule": "no-div-regex",
+        "description": "disallow division operators explicitly at beginning of regular expression"
+      },
+      {
+        "rule": "no-else-return",
+        "description": "disallow else after a return in an if"
+      },
+      {
+        "rule": "no-empty-pattern",
+        "description": "disallow use of empty destructuring patterns"
+      },
+      {
+        "rule": "no-eq-null",
+        "description": "disallow comparisons to null without a type-checking operator"
+      },
+      {
+        "rule": "no-eval",
+        "description": "disallow use of eval()"
+      },
+      {
+        "rule": "no-extend-native",
+        "description": "disallow adding to native types"
+      },
+      {
+        "rule": "no-extra-bind",
+        "description": "disallow unnecessary function binding"
+      },
+      {
+        "rule": "no-extra-label",
+        "description": "disallow unnecessary labels"
+      },
+      {
+        "rule": "no-fallthrough",
+        "description": "disallow fallthrough of case statements"
+      },
+      {
+        "rule": "no-floating-decimal",
+        "description": "disallow the use of leading or trailing decimal points in numeric literals"
+      },
+      {
+        "rule": "no-implicit-coercion",
+        "description": "disallow the type conversions with shorter notations"
+      },
+      {
+        "rule": "no-implicit-globals",
+        "description": "disallow var and named functions in global scope"
+      },
+      {
+        "rule": "no-implied-eval",
+        "description": "disallow use of eval()-like methods"
+      },
+      {
+        "rule": "no-invalid-this",
+        "description": "disallow this keywords outside of classes or class-like objects"
+      },
+      {
+        "rule": "no-iterator",
+        "description": "disallow usage of __iterator__ property"
+      },
+      {
+        "rule": "no-labels",
+        "description": "disallow use of labeled statements"
+      },
+      {
+        "rule": "no-lone-blocks",
+        "description": "disallow unnecessary nested blocks"
+      },
+      {
+        "rule": "no-loop-func",
+        "description": "disallow creation of functions within loops"
+      },
+      {
+        "rule": "no-magic-numbers",
+        "description": "disallow the use of magic numbers"
+      },
+      {
+        "rule": "no-multi-spaces",
+        "description": "disallow use of multiple spaces"
+      },
+      {
+        "rule": "no-multi-str",
+        "description": "disallow use of multiline strings"
+      },
+      {
+        "rule": "no-native-reassign",
+        "description": "disallow reassignments of native objects"
+      },
+      {
+        "rule": "no-new-func",
+        "description": "disallow use of new operator for Function object"
+      },
+      {
+        "rule": "no-new-wrappers",
+        "description": "disallows creating new instances of String,Number, and Boolean"
+      },
+      {
+        "rule": "no-new",
+        "description": "disallow use of the new operator when not part of an assignment or comparison"
+      },
+      {
+        "rule": "no-octal-escape",
+        "description": "disallow use of octal escape sequences in string literals, such as var foo = \"Copyright \\251\";"
+      },
+      {
+        "rule": "no-octal",
+        "description": "disallow use of octal literals"
+      },
+      {
+        "rule": "no-param-reassign",
+        "description": "disallow reassignment of function parameters"
+      },
+      {
+        "rule": "no-process-env",
+        "description": "disallow use of process.env"
+      },
+      {
+        "rule": "no-proto",
+        "description": "disallow usage of __proto__ property"
+      },
+      {
+        "rule": "no-redeclare",
+        "description": "disallow declaring the same variable more than once"
+      },
+      {
+        "rule": "no-return-assign",
+        "description": "disallow use of assignment in return statement"
+      },
+      {
+        "rule": "no-script-url",
+        "description": "disallow use of javascript: urls."
+      },
+      {
+        "rule": "no-self-assign",
+        "description": "disallow assignments where both sides are exactly the same"
+      },
+      {
+        "rule": "no-self-compare",
+        "description": "disallow comparisons where both sides are exactly the same"
+      },
+      {
+        "rule": "no-sequences",
+        "description": "disallow use of the comma operator"
+      },
+      {
+        "rule": "no-throw-literal",
+        "description": "restrict what can be thrown as an exception"
+      },
+      {
+        "rule": "no-unmodified-loop-condition",
+        "description": "disallow unmodified conditions of loops"
+      },
+      {
+        "rule": "no-unused-expressions",
+        "description": "disallow usage of expressions in statement position"
+      },
+      {
+        "rule": "no-unused-labels",
+        "description": "disallow unused labels"
+      },
+      {
+        "rule": "no-useless-call",
+        "description": "disallow unnecessary .call() and .apply()"
+      },
+      {
+        "rule": "no-useless-concat",
+        "description": "disallow unnecessary concatenation of literals or template literals"
+      },
+      {
+        "rule": "no-void",
+        "description": "disallow use of the void operator"
+      },
+      {
+        "rule": "no-warning-comments",
+        "description": "disallow usage of configurable warning terms in comments",
+        "__1": "e.g. TODO or FIXME"
+      },
+      {
+        "rule": "no-with",
+        "description": "disallow use of the with statement"
+      },
+      {
+        "rule": "radix",
+        "description": "require use of the second argument for parseInt()"
+      },
+      {
+        "rule": "vars-on-top",
+        "description": "require declaration of all vars at the top of their containing scope"
+      },
+      {
+        "rule": "wrap-iife",
+        "description": "require immediate function invocation to be wrapped in parentheses"
+      },
+      {
+        "rule": "yoda",
+        "description": "require or disallow Yoda conditions"
+      }
+    ]
+  }
+]
